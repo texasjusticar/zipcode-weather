@@ -1,0 +1,33 @@
+{
+  "data": {
+    "time":"2024-01-23T17:45:00Z",
+    "values": {
+      "cloudBase": 0.46,
+      "cloudCeiling": 0.46,
+      "cloudCover": 100,
+      "dewPoint": 29.64,
+      "freezingRainIntensity": 0,
+      "humidity": 65,
+      "precipitationProbability": 0,
+      "pressureSurfaceLevel": 30.14,
+      "rainIntensity": 0,
+      "sleetIntensity": 0,
+      "snowIntensity": 0,
+      "temperature": 38.53,
+      "temperatureApparent": 35.4,
+      "uvHealthConcern": 0,
+      "uvIndex": 0,
+      "visibility": 9.94,
+      "weatherCode": 1001,
+      "windDirection": 254.63,
+      "windGust": 8.53,
+      "windSpeed": 4.19
+     }
+  },
+ "location": {
+  "lat": 42.356903076171875,
+  "lon": -71.05380249023438,
+  "name": "Downtown Boston, Boston, Suffolk County, 02110, Massachusetts, United States",
+  "type": "postcode"
+  }
+}

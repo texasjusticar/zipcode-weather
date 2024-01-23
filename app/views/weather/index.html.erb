@@ -1,0 +1,10 @@
+<% if flash[:notice] %>
+  <div class="notice"><%= flash[:notice] %></div>
+  <p>
+<% end %>
+
+<%= form_with url: '/display', data: { turbo: "false" } do |form| %>
+  <%= form.label :address, "Input Address for Weather Information" %>
+  <%= form.text_field :address %>
+  <%= form.submit "Get Weather" %>
+<% end %>

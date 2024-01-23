@@ -1,0 +1,11 @@
+The weather for [ <%= params[:address] %> (<%= @zipcode %>) ]:
+<p>
+Current Temperature: <%= @weather_data['data']['temperature'] %> <%= temperature_unit %> 
+<p>
+Minimum Forecasted Temperature: <%= @weather_data['data']['min_temperature'] %> <%= temperature_unit %> 
+<p>
+Maximum Forecasted Temperature: <%= @weather_data['data']['max_temperature'] %> <%= temperature_unit %>
+<p>
+<% unless @weather_data['refresh'] == true %>
+CACHED
+<% end %>
